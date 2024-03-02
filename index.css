@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.princ {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* border: 5px solid #f6fa01; */
+}
+
+.pag1, .pag2, .pag3, .pag4 {
+    height: 100vh; /* Alteração aqui para ocupar toda a altura da tela */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: sticky; /* Adicionando position sticky */
+    top: 0; /* Definindo a posição de início */
+}
+
+.botão, .botao{
+    height: 55px;
+    margin-top: 15px;
+    width: 400px;
+
+}
+
+
+.botão{
+    display: inline;
+}
+
+.botao2{
+    margin-left: 30px;
+}
+
+.pag1 video {
+    width: 750px;
+   
+}
+.pag1 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+.princ h1 {
+    color: white;
+}
+
+.pag2 {
+    background-color: blue;
+}
+
+.pag3 {
+    background-color: darkgoldenrod;
+}
+
+.pag4 {
+    background-color: aqua;
+}
+
+footer {
+    height: 100px; /* Altura do rodapé */
+    background-color: gray;
+}
+
+.video1{
+    
+}
+
+@media screen and (max-width:835px){
+    .pag1 video {
+        width: 750px;
+    }
+    .botão, .botao{
+        height: 50px;
+        margin-top: 15px;
+        width: 350px;
+    
+    }
+
+}
+
+@media screen and (max-width:764px){
+    .pag1 video {
+        width: 700px;
+    }
+    .botão, .botao{
+        height: 50px;
+        margin-top: 15px;
+        width: 320px;
+    
+    }
+
+}
+
+@media screen and (max-width:709px){
+    .pag1 video {
+        width: 650px;
+    }
+    .botão, .botao{
+        height: 50px;
+        margin-top: 15px;
+        width: 300px;
+    
+    }
+
+}
+
+@media screen and (max-width:670px){
+    .pag1 video {
+        width: 600px;
+    }
+    .botão, .botao{
+        height: 50px;
+        margin-top: 15px;
+        width: 280px;
+    
+    }
+
+}
